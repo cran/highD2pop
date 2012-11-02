@@ -1,0 +1,22 @@
+useDynLib(highD2pop)
+
+export(	build2popData,
+	build2popData_muYafunction,
+	GCT.test,
+	GCT.test.missing,
+	GCT.sim,
+	ChenQin.test,
+	ChenQin.sim,
+	SK.test,
+	SK.sim,
+	CLX.test.equalcov,
+	CLX.test.unequalcov,
+	CLX.sim.equalcov,
+	CLX.sim.unequalcov,
+	CLX.sim.Covtest,
+	CLX.Covtest,
+	rdblepareto,
+	rgammashift,
+	center)
+
+import(fastclime)
